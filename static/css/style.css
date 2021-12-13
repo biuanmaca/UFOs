@@ -1,0 +1,33 @@
+body {
+
+    color: #f7f7f7;
+  }
+
+<body class="bg-dark">
+
+<nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+
+<div class="jumbotron">
+  <h1 class="display-4">The Truth is Out There</h1>
+</div>
+
+.jumbotron {
+    background-image: url("../images/nasa.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+  }
+
+  <form>
+  <p>Filter Search</p>
+  <ul>
+    <li>
+      <label for="date">Enter Date</label>
+      <input type="text" placeholder="1/10/2010" id="datetime" />
+    </li>
+    <li>
+       <button id="filter-btn" type="button" class="btn btn-default">
+         Filter Table
+       </button>
+    </li>
+  </ul>
+ </form>
